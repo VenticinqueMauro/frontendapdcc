@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "incremental": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "noEmit": true,
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "es5"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        ".next/types/**/*.ts",
+        "src/components/login/SelectRole.jsx"
+, "src/app/layout.jsx", "src/components/login/RegisterForm.jsx", "src/components/login/LoginForm.jsx", "src/app/page.jsx", "src/app/register/page.jsx", "src/app/register/layout.jsx", "src/app/login/page.jsx", "src/app/login/layout.jsx", "src/components/BotonesLaterales.jsx", "src/components/validation/registerInfo.js", "src/components/validation/loginInfo.js", "src/components/portada/VideoFondo.jsx", "src/components/portada/Portada.jsx", "src/components/portada/Container.jsx", "src/components/navbar/Navbar.jsx", "src/components/navbar/MenudropDown.jsx", "src/components/login/svgs/Juez.jsx", "src/components/login/svgs/Manager.jsx", "src/components/login/svgs/Admin.jsx", "src/components/login/SelectCountries.jsx"    ]
+}
